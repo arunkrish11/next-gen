@@ -8,10 +8,10 @@ function ImageRow() {
         card={{ name: "Gear VR Headset", link: "/gear-vr-headset.webp" }}
       />
       <ImageCard
-        card={{ name: "Gear VR Headset", link: "/gear-vr-headset.webp" }}
+        card={{ name: "Smart VR Headset", link: "/smart-vr-headset.webp" }}
       />
       <ImageCard
-        card={{ name: "Gear VR Headset", link: "/gear-vr-headset.webp" }}
+        card={{ name: "Play Station VR", link: "/play-station-vr.webp" }}
       />
     </div>
   );

@@ -10,7 +10,7 @@ function ImageCard({ card }: { card: any }) {
           alt={card.name}
         />
       </div>
-      <div className="flex p-6 poppins-regular text-[20px] text-white">
+      <div className="flex py-6 poppins-regular text-[20px] text-white">
         <h1> {card.name} </h1>
       </div>
     </div>
