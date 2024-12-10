@@ -1,9 +1,12 @@
-import React from 'react'
+import ImageRow from "@/elements/ImageRow";
+import React from "react";
 
 function page() {
   return (
-    <div>page</div>
-  )
+    <div>
+      <ImageRow />
+    </div>
+  );
 }
 
-export default page
+export default page;
