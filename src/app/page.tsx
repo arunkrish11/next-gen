@@ -1,5 +1,5 @@
 import ImageRow from "@/elements/ImageRow";
-import RightImageText from "@/elements/RightImageText";
+import RightImageText from "@/elements/LeftImageText";
 import Subscribe from "@/elements/Subscribe";
 import React from "react";
 
