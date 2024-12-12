@@ -1,3 +1,4 @@
+import Footer from "@/elements/Footer";
 import ImageRow from "@/elements/ImageRow";
 import LeftImageText from "@/elements/LeftImageText";
 import RightImageText from "@/elements/RightImageText";
@@ -11,6 +12,7 @@ function page() {
       <LeftImageText />
       <RightImageText />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
