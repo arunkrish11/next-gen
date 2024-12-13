@@ -3,7 +3,7 @@ import React from "react";
 
 function RightImageText() {
   return (
-    <div className="flex flex-col md:flex-row w-screen h-fit items-center md:px-[20%] p-[4%] bg-[#0B0319]">
+    <div className="flex flex-col md:flex-row w-screen h-fit items-center md:px-[20%] p-[4%]">
       <Description
         product={{
           headOne: "Touch the ",

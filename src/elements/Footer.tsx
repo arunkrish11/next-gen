@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="flex flex-col w-screen md:px-[21%] md:py-[2%] md:justify-between bg-[#0B0319]">
+    <footer className="flex flex-col w-screen md:px-[21%] md:py-[2%] md:justify-between">
       <div className="flex flex-col md:flex-row items-center md:justify-between text-white josefin-sans text-[18px] py-10">
         <a className="hover:text-[#2AA9DF]" href="/help">
           Help

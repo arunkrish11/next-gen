@@ -2,7 +2,7 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div className="flex flex-col w-screen h-fit py-20 justify-center items-center text-white bg-[#0B0319] ">
+    <div className="flex flex-col w-screen h-fit py-20 justify-center items-center text-white">
       <div className="w-[80%] md:w-[50%] h-fit rounded-3xl px-1 py-1 josefin-sans bg-gradient-to-b from-[#DF00BC] to-[#2AA9DF]">
         <div className="rounded-3xl px-5 md:px-24 py-5 bg-[#0B0319] ">
           <div className="flex justify-center py-2">
