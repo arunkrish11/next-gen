@@ -23,6 +23,8 @@ function Hero() {
                   className="w-fit h-fit"
                   src="/vr-headset.webp"
                   alt="head"
+                  width={1000}
+                  height={1000}
                 />
               </div>
               <div className="flex py-5 inter text-white">
@@ -53,6 +55,8 @@ function Hero() {
                   className="w-fit h-fit"
                   src="/girl-vr-headset.webp"
                   alt="girl with vr headset"
+                  width={1000}
+                  height={1000}
                 />
               </div>
             </div>

@@ -23,7 +23,7 @@ function Description({ product }: { product: any }) {
         </div>
         <div className="flex rounded-full w-fit h-fit">
           <button>
-            <Image src="/play.webp" alt="play" />
+            <Image className="w-fit h-fit" src="/play.webp" alt="play" width={1000} height={1000} />
           </button>
         </div>
       </div>

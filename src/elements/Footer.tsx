@@ -42,10 +42,18 @@ function Footer() {
               className="w-fit h-fit"
               src="/playstore.webp"
               alt="playstore"
+              width={1000}
+              height={1000}
             />
           </button>
           <button>
-            <Image className="w-fit h-fit" src="/appstore.webp" alt="appstore" />
+            <Image
+              className="w-fit h-fit"
+              src="/appstore.webp"
+              alt="appstore"
+              width={1000}
+              height={1000}
+            />
           </button>
         </div>
       </div>
@@ -53,10 +61,16 @@ function Footer() {
         <div className="flex flex-row py-4 px-4 items-center justify-between text-white bg-[#0B0319]">
           <div className="flex flex-col lg:flex-row md:w-3/4 lg:w-1/4  ">
             <div className="flex py-4 justify-around lg:flex-row gap-3">
-              <Link className=" josefin-sans hover:text-[#2AA9DF]" href="/terms">
+              <Link
+                className=" josefin-sans hover:text-[#2AA9DF]"
+                href="/terms"
+              >
                 Terms
               </Link>
-              <Link className=" josefin-sans hover:text-[#2AA9DF]" href="/privacy">
+              <Link
+                className=" josefin-sans hover:text-[#2AA9DF]"
+                href="/privacy"
+              >
                 Privacy
               </Link>
               <Link
@@ -85,20 +99,40 @@ function Footer() {
           </div>
           <div className="flex flex-row px-5 gap-2">
             <button>
-              <Image className="w-fit h-fit" src="/twitter.webp" alt="twitter" />
+              <Image
+                className="w-fit h-fit"
+                src="/twitter.webp"
+                alt="twitter"
+                width={1000}
+                height={1000}
+              />
             </button>
             <button>
-              <Image className="w-fit h-fit" src="/youtube.webp" alt="youtube" />
+              <Image
+                className="w-fit h-fit"
+                src="/youtube.webp"
+                alt="youtube"
+                width={1000}
+                height={1000}
+              />
             </button>
             <button>
               <Image
                 className="w-fit h-fit"
                 src="/facebook.webp"
                 alt="facebook"
+                width={1000}
+                height={1000}
               />
             </button>
             <button>
-              <Image src="/instagram.webp" alt="instagram" />
+              <Image
+                className="w-fit h-fit"
+                src="/instagram.webp"
+                alt="instagram"
+                width={1000}
+                height={1000}
+              />
             </button>
           </div>
         </div>
