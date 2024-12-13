@@ -1,4 +1,5 @@
 import Description from "@/components/Description";
+import Image from "next/image";
 import React from "react";
 
 function RightImageText() {
@@ -12,7 +13,7 @@ function RightImageText() {
         }}
       />
       <div className="flex w-screen md:w-[40%] h-fit py-10 px-5 md:px-0 md:py-0 justify-center items-center text-white">
-        <img src="/one-img.webp" alt="meta verse" />
+        <Image src="/one-img.webp" alt="meta verse" />
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Description({ product }: { product: any }) {
@@ -22,7 +23,7 @@ function Description({ product }: { product: any }) {
         </div>
         <div className="flex rounded-full w-fit h-fit">
           <button>
-            <img src="/play.webp" alt="play" />
+            <Image src="/play.webp" alt="play" />
           </button>
         </div>
       </div>

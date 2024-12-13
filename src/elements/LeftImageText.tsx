@@ -1,11 +1,12 @@
 import Description from "@/components/Description";
+import Image from "next/image";
 import React from "react";
 
 function LeftImageText() {
   return (
     <div className="flex flex-col md:flex-row w-screen h-fit items-center md:px-[20%] p-[4%]">
       <div className="md:flex w-screen md:w-[40%] h-fit py-10 md:py-0 justify-center items-center text-white hidden">
-        <img src="/three-img.webp" alt="meta verse" />
+        <Image src="/three-img.webp" alt="meta verse" />
       </div>
       <Description
         product={{
@@ -15,7 +16,7 @@ function LeftImageText() {
         }}
       />
       <div className="flex w-screen md:w-[40%] h-fit py-10 md:py-0 justify-center items-center text-white md:hidden">
-        <img src="/three-img.webp" alt="meta verse" />
+        <Image src="/three-img.webp" alt="meta verse" />
       </div>
     </div>
   );

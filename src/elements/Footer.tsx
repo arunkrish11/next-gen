@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -37,14 +38,14 @@ function Footer() {
         </div>
         <div className="flex flex-row py-5 gap-3">
           <button>
-            <img
+            <Image
               className="w-fit h-fit"
               src="/playstore.webp"
               alt="playstore"
             />
           </button>
           <button>
-            <img className="w-fit h-fit" src="/appstore.webp" alt="appstore" />
+            <Image className="w-fit h-fit" src="/appstore.webp" alt="appstore" />
           </button>
         </div>
       </div>
@@ -84,20 +85,20 @@ function Footer() {
           </div>
           <div className="flex flex-row px-5 gap-2">
             <button>
-              <img className="w-fit h-fit" src="/twitter.webp" alt="twitter" />
+              <Image className="w-fit h-fit" src="/twitter.webp" alt="twitter" />
             </button>
             <button>
-              <img className="w-fit h-fit" src="/youtube.webp" alt="youtube" />
+              <Image className="w-fit h-fit" src="/youtube.webp" alt="youtube" />
             </button>
             <button>
-              <img
+              <Image
                 className="w-fit h-fit"
                 src="/facebook.webp"
                 alt="facebook"
               />
             </button>
             <button>
-              <img src="/instagram.webp" alt="instagram" />
+              <Image src="/instagram.webp" alt="instagram" />
             </button>
           </div>
         </div>

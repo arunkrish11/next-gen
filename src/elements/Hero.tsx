@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import Paragraph from "@/components/Paragraph";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -18,7 +19,7 @@ function Hero() {
                 <Link href="/product">Product</Link>
               </div>
               <div className="flex justify-center mt-[-25px] bg-[#0B0319]">
-                <img
+                <Image
                   className="w-fit h-fit"
                   src="/vr-headset.webp"
                   alt="head"
@@ -48,7 +49,7 @@ function Hero() {
                 <Button name={{ value: "See More" }} />
               </div>
               <div className="flex w-screen md:w-[65%] mt-10 md:mt-0 justify-center items-center">
-                <img
+                <Image
                   className="w-fit h-fit"
                   src="/girl-vr-headset.webp"
                   alt="girl with vr headset"
