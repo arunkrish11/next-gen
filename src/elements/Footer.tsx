@@ -1,24 +1,25 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
   return (
     <footer className="flex flex-col w-screen md:px-[21%] md:py-[2%] md:justify-between">
       <div className="flex flex-col md:flex-row items-center md:justify-between text-white josefin-sans text-[18px] py-10">
-        <a className="hover:text-[#2AA9DF]" href="/help">
+        <Link className="hover:text-[#2AA9DF]" href="/help">
           Help
-        </a>
-        <a className="hover:text-[#2AA9DF]" href="/about">
+        </Link>
+        <Link className="hover:text-[#2AA9DF]" href="/about">
           About Us
-        </a>
-        <a className="hover:text-[#2AA9DF]" href="/company">
+        </Link>
+        <Link className="hover:text-[#2AA9DF]" href="/company">
           Company
-        </a>
-        <a className="hover:text-[#2AA9DF]" href="/services">
+        </Link>
+        <Link className="hover:text-[#2AA9DF]" href="/services">
           Services
-        </a>
-        <a className="hover:text-[#2AA9DF]" href="/contact">
+        </Link>
+        <Link className="hover:text-[#2AA9DF]" href="/contact">
           contact
-        </a>
+        </Link>
       </div>
       <div className="flex flex-col py-5 items-center ">
         <div className="flex py-4 ">
@@ -51,18 +52,18 @@ function Footer() {
         <div className="flex flex-row py-4 px-4 items-center justify-between text-white bg-[#0B0319]">
           <div className="flex flex-col lg:flex-row md:w-3/4 lg:w-1/4  ">
             <div className="flex py-4 justify-around lg:flex-row gap-3">
-              <a className=" josefin-sans hover:text-[#2AA9DF]" href="/terms">
+              <Link className=" josefin-sans hover:text-[#2AA9DF]" href="/terms">
                 Terms
-              </a>
-              <a className=" josefin-sans hover:text-[#2AA9DF]" href="/privacy">
+              </Link>
+              <Link className=" josefin-sans hover:text-[#2AA9DF]" href="/privacy">
                 Privacy
-              </a>
-              <a
+              </Link>
+              <Link
                 className=" josefin-sans hover:text-[#2AA9DF]"
                 href="condition"
               >
                 Condition
-              </a>
+              </Link>
             </div>
             <div className="flex items-center gap-2 lg:hidden">
               <span className="flex rounded-full px-2 border-2 text-[11px] border-white">

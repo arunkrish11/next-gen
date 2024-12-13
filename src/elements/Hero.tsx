@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import Paragraph from "@/components/Paragraph";
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -11,10 +12,10 @@ function Hero() {
           <div className="bg-gradient-to-t from-[#0B0319] to-transparent">
             <div className="flex flex-row justify-around px-2 md:px-[10%] ">
               <div className="flex py-5 inter text-white">
-                <a href="/">Home</a>
+                <Link  href="/">Home</Link>
               </div>
               <div className="flex py-5 inter text-white">
-                <a href="/product">Product</a>
+                <Link href="/product">Product</Link>
               </div>
               <div className="flex justify-center mt-[-25px] bg-[#0B0319]">
                 <img
@@ -24,10 +25,10 @@ function Hero() {
                 />
               </div>
               <div className="flex py-5 inter text-white">
-                <a href="/">Service</a>
+                <Link href="/">Service</Link>
               </div>
               <div className="flex py-5 inter text-white">
-                <a href="/">Contact</a>
+                <Link href="/">Contact</Link>
               </div>
             </div>
             <div className="flex w-auto pb-40 flex-col md:flex-row md:justify-evenly">
