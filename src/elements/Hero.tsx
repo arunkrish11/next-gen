@@ -13,7 +13,7 @@ function Hero() {
           <div className="bg-gradient-to-t from-[#0B0319] to-transparent">
             <div className="flex flex-row justify-around px-2 md:px-[10%] ">
               <div className="flex py-5 inter text-white">
-                <Link  href="/">Home</Link>
+                <Link href="/">Home</Link>
               </div>
               <div className="flex py-5 inter text-white">
                 <Link href="/product">Product</Link>
@@ -26,10 +26,10 @@ function Hero() {
                 />
               </div>
               <div className="flex py-5 inter text-white">
-                <Link href="/">Service</Link>
+                <Link href="/service">Service</Link>
               </div>
               <div className="flex py-5 inter text-white">
-                <Link href="/">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </div>
             </div>
             <div className="flex w-auto pb-40 flex-col md:flex-row md:justify-evenly">

@@ -61,7 +61,7 @@ function Footer() {
               </Link>
               <Link
                 className=" josefin-sans hover:text-[#2AA9DF]"
-                href="condition"
+                href="/condition"
               >
                 Condition
               </Link>
